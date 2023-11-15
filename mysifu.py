@@ -25,11 +25,11 @@ meta_description = "MySifu.Net - Maklumat terkini sepantas kilat!"
 # st.write(meta_description)
 
 # Use columns to create a layout. The empty columns act as space on the sides.
-# col1, col2, col3 = st.columns([1,2,1])
+col1, col2, col3 = st.columns([1,2,1])
 
 # With the image in the center column
-# with col2:
-#    st.image('images/mysifu_bg_logo.png', use_column_width=True)
+with col2:
+    st.image('img//mysifu_bg_logo.png', use_column_width=True)
 
 st.title("🔎 MySifu AI")
 
