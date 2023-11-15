@@ -47,8 +47,8 @@ with st.expander('Apakah itu MySifu?'):
     ''')
 
 # Your API keys (should be kept secret, using placeholders here)
-OPENAI_API_KEY = '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'
-SERPAPI_API_KEY = 'bc887f0a4ad542651b2f9a523035ce0e34aba17fe29e782f0a3c48c02744cc7f'
+OPENAI_API_KEY = ''
+SERPAPI_API_KEY = ''
 
 with st.sidebar:
     openai_api_key = st.text_input("OpenAI API Key", type="password")
