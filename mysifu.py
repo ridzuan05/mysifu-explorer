@@ -29,7 +29,8 @@ col1, col2, col3 = st.columns([1,2,1])
 
 # With the image in the center column
 with col2:
-    st.image('img//mysifu_bg_logo.png', use_column_width=True)
+    # st.image('img//mysifu_bg_logo.png', use_column_width=True)
+    st.image('img//mysifu_app.png', use_column_width=True, output_format="auto")
 
 st.title("🔎 MySifu AI")
 
